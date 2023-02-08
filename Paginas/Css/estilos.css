@@ -1,0 +1,223 @@
+html{
+    font-size: 62.5%;
+}
+
+.menu__principal{
+    color: rgba(238, 11, 11, 0.87);
+    text-decoration: none;
+    font-size: 2rem;
+    font-family:'Open Sans', sans-serif;
+    padding: 0px 10px 0px 10px;
+    
+}
+.menu__nosotros{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 255, 0.274);
+}
+
+.menu__personal{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 255, 0.274);
+}
+.menu__personal2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+    display: inline-block;
+    padding: 15px;
+    margin: 2px;
+    padding-right: 1px;
+    
+}
+
+
+.menu__marcas{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+}
+.menu__marcas2{
+    font-family:'Open Sans', sans-serif;
+    font-size: 3rem;
+    border-style: groove;
+    border-color: black;
+    display: inline-block;
+}
+
+.fondoBody{
+    background-color: rgba(0, 0, 255, 0.274);
+}
+
+
+.titulo__Principal{
+    background-color: rgba(27, 30, 221, 0.651);
+    color: rgba(255, 0, 0, 0.863);
+    text-align: center;
+    font-size: 8rem;
+    font-family:'Jacques Francois Shadow', cursive;
+    
+}
+.titulo__Principal2{
+    text-align: center;
+    color: rgba(238, 11, 11, 0.87);
+    text-decoration: none;
+    font-size: 4rem;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: underline;
+}
+.titulo__comercial{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+}
+.titulo__comercial2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+.titulo__industrial{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+}
+.titulo__industrial2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+.Licenciaoficial{
+font-size: 3rem;
+font-family: 'Open Sans', sans-serif;
+}
+
+article{
+    font-family:'Open Sans', sans-serif;
+    font-size: 2rem;
+}
+
+article ul ul{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+}
+
+
+
+.stihl{
+    background-color:  rgba(0, 0, 255, 0.274);
+    font-family:'Roboto Mono', monospace;
+    font-size: 2rem;
+    display:inline-block;
+    width: 25%;
+    position: relative;
+    }
+    .noneStihl{
+    text-decoration: none;
+    color: black;
+    }
+.texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.karcher{
+    background-color:  rgba(0, 0, 255, 0.274);
+    font-family:'Roboto Mono', monospace;
+    font-size: 2rem;
+    }
+    .noneKarcher{
+        text-decoration: none;
+        color: black;
+    }
+.imagenes{
+    background-color: rgba(0, 0, 255, 0.274);
+    font-family:'Roboto Mono', monospace;
+    font-size: 2rem;
+}
+
+
+
+.texto{
+    justify-content: start;
+    padding:10px;
+}
+
+
+.redessoc1{
+    position: fixed;
+    right: 0;
+    bottom: 450px;
+}
+
+
+.redessoc{
+    margin: 5px;
+    height: 45px;
+    width: 45px;
+    display: block;
+}
+
+
+.footer{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    }
+.footer1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    text-align: end;
+    
+}
+
+
+
+@media screen and (max-width:768px){
+   .grid{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
+        grid-template-areas: 
+        "grid1 grid1 grid1"
+        "grid2 grid2 grid2"
+        "grid3 grid3 gird3"
+        "grid4 grid4 grid4";
+        }
+.grid1{
+    background-color: blueviolet;
+    }
+.grid3{
+    background-color:seagreen;
+    }
+.grid4{
+    background-color: yellow;
+    }
+}
+
+@media screen and (max-width:500px){
+.grid{
+    grid-template-columns: 1fr;
+    grid-auto-rows: 0.5fr 1fr 1fr 0.5fr;
+    grid-template-areas: 
+    "grid1"
+    "grid2"
+    "grid3"
+    "grid4";}
+    
+.grid1{
+    grid-area: grid1;
+    background-color: tomato;
+    }
+.grid2{
+    grid-area: grid2;
+    background-color: olive
+    }
+.grid3{
+    grid-area: grid3;
+    background-color: rosybrown;
+    }
+.grid4{
+    grid-area: grid4;
+    background-color: lightpink;
+    }
+    
+}
