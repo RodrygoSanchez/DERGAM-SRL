@@ -3,11 +3,20 @@ html{
 }
 
 .menu__principal{
-    color: rgba(238, 11, 11, 0.87);
+    color:  rgba(255, 0, 0, 0.863);
     text-decoration: none;
     font-size: 2rem;
     font-family:'Open Sans', sans-serif;
-    padding: 0px 10px 0px 10px;  
+    padding: 5px 5px;
+    margin-top: 15px;
+    margin-bottom: 1px;
+    display: inline-block;
+}
+
+.mp2:hover{
+    background-color: #5858ce85;
+    border-style: outset;
+    font-weight: bold;
 }
 
 
@@ -47,6 +56,75 @@ html{
     color: rgba(255, 0, 0, 0.863);
 }
 
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+.img2{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    
+}
+
+.imgdescrip{
+    color: red;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.precio{
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+
+.imgamoladora{
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+
+    }
+.imgcamisa{
+        width: 250px;
+        height: 250px;
+        margin-top: 30px;    
+    }   
+.imgmascara{
+        width: 250px;
+        height: 250px;
+        margin-top: 30px;
+        margin-left: 55px;
+    }
+    
+.imgsetbahco{
+        width: 250px;
+        height: 250px;
+        margin-top: 30px;
+    }
+.imgsold{
+        width: 250px;
+        height: 250px;  
+        margin-top: 30px;
+    }
+.imgtijera{
+        width: 250px;
+        height: 250px;   
+        margin-top: 50px;
+    }
+.imgzapatilla{
+        width: 250px;
+        height: 250px;
+        margin-top: 50px;
+    }
+
 .fondoBody{
     background-color: rgba(0, 0, 255, 0.274);
 }
@@ -59,50 +137,81 @@ html{
     text-align: center;
     font-size: 8rem;
     font-family:'Jacques Francois Shadow', cursive;
-    
+    margin-top: 40px;
 }
+
+.ferre{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5rem;
+    color: blue;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
 .titulo__Principal2{
     text-align: center;
-    color: rgba(238, 11, 11, 0.87);
+    color: blue;
     text-decoration: none;
     font-size: 4rem;
     font-family: 'Open Sans', sans-serif;
     text-decoration: underline;
+    margin-top: 10px;
 }
 .titulo__comercial{
     font-family: 'Roboto Mono', monospace;
     font-size: 2rem;
-    font-weight:bold;
 }
 .titulo__comercial2{
     font-family: 'Open Sans', sans-serif;
     font-size: 3rem;
-    text-decoration: underline;
+    background: radial-gradient(blue, white);
+    text-align: center;
+    border-style: outset;
 }
 .titulo__industrial{
     font-family: 'Roboto Mono', monospace;
     font-size: 2rem;
-    font-weight: bold;
+    
 }
 .titulo__industrial2{
     font-family: 'Open Sans', sans-serif;
     font-size: 3rem;
-    text-decoration: underline;
+    background: radial-gradient(blue, white);
+    text-align: center;
+    border-style: outset;
 }
 
 .Licenciaoficial{
 font-size: 3rem;
-font-family: 'Open Sans', sans-serif;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color:rgba(238, 11, 11, 0.87) ;
+animation-name: Licenciaoficial ;
+animation-duration: 2s;
+animation-delay: 2s;
+animation-iteration-count: infinite;
+display: inline-block;
+font-weight: bold;
+margin-bottom: 5px;
 }
+
+@keyframes Licenciaoficial{
+    0%{opacity: 100%;}
+
+    50%{opacity: 50%;}
+
+    0%{opacity: 100%;}
+}
+
 
 article{
     font-family:'Open Sans', sans-serif;
     font-size: 2rem;
+
 }
 
 article ul ul{
     font-family: 'Roboto Mono', monospace;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 
@@ -111,14 +220,19 @@ article ul ul{
     background-color:  rgba(0, 0, 255, 0.274);
     font-family:'Roboto Mono', monospace;
     font-size: 2rem;
+    margin-bottom: 150px;
     display:inline-block;
-    width: 25%;
-    position: relative;
-    }
+}
     .noneStihl{
     text-decoration: none;
     color: black;
     }
+    .stihl2{
+        text-decoration: underline;
+        font-size: 3rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
 .texto{
     display: flex;
     flex-direction: row;
@@ -134,11 +248,13 @@ article ul ul{
         text-decoration: none;
         color: black;
     }
-.imagenes{
-    background-color: rgba(0, 0, 255, 0.274);
-    font-family:'Roboto Mono', monospace;
-    font-size: 2rem;
-}
+    .karcher2{
+        text-decoration: underline;
+        font-size: 3rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+
 
 
 
@@ -172,13 +288,23 @@ article ul ul{
 .footer1{
     font-family: 'Open Sans', sans-serif;
     font-size: 2rem;
-    text-align: end;
-    
+    display: flex;
+    justify-content: left;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    text-decoration: underline;
+}
+
+.footer2{
+    font-family:'Open Sans', sans-serif;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
 
 
-@media screen and (max-width:768px){
+ /*@media screen and (max-width:768px){
    .grid{
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
@@ -197,33 +323,33 @@ article ul ul{
 .grid4{
     background-color: yellow;
     }
-}
+}/*  */
 
 @media screen and (max-width:500px){
 .grid{
     grid-template-columns: 1fr;
     grid-auto-rows: 0.5fr 1fr 1fr 0.5fr;
     grid-template-areas: 
-    "grid1"
+    "grid1" 
     "grid2"
     "grid3"
     "grid4";}
     
 .grid1{
     grid-area: grid1;
-    background-color: tomato;
+    
     }
 .grid2{
     grid-area: grid2;
-    background-color: olive
+    
     }
 .grid3{
     grid-area: grid3;
-    background-color: rosybrown;
+    
     }
 .grid4{
     grid-area: grid4;
-    background-color: lightpink;
+    
     }
     
-}
+} 
